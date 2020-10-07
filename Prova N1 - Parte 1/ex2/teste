@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char quest[3],resp[3],tru;
+    int i,j=1,nota=0,cont=0;
+    float media=0,taxaApr=0,prova=1,tnota=0,aprov=0;
+
+    do{
+    j=1;
+    cont=0;
+    nota=0;
+    printf("Digite o gabarito da prova\n");
+
+    for(i=0;i<=2;i++){
+        printf("Questao %i: ",j++);
+        scanf("%s",&quest[i]);}
+    j=1;
+    printf("\n\n");
+        for(i=0;i<=2;i++){
+        printf("Resposta %i: ",j++);
+        scanf("%s",&resp[i]);
+        if(resp[i]==quest[i]){nota++;}}
+    if(nota>=0&&nota<=1){printf("\nAluno reprovado, a nota %i eh insuficiente",nota);}
+    else if(nota>1&&nota<=3){printf("\nAluno aprovado com a nota %i",nota);aprov++;}
+    else{printf("\nError: nota invalida");}
+    tnota+=nota;
+
+    printf("\n\nDeseja digitar outra prova? ");
+    scanf("%s",&tru);
+    if(tru=='s'||tru=='sim'||tru=='S'){cont++;}
+    else{printf("\n\n\tSem mais provas\n");}
+    printf("\n\n");
+    prova+=cont;
+    }while(cont>=1);
+
+    media=tnota/prova;
+    taxaApr=(aprov/prova)*100;
+
+    printf("\n\nQuantidade de provas corrigidas: %.0f",prova);
+    printf("\nMedia das notas: %.1f",media);
+    printf("\nAlunos Aprovados: %.0f",aprov);
+    printf("\nTaxa de aprovados: %.1f%%",taxaApr);
+    printf("\n\nPrograma finalizado\n");
+    return 0;
+}
