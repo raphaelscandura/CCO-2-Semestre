@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1602075829 source:c:\users\rapha\desktop\the shire\faculdade - cco uam\2º semestre\técnicas de programação\projetos\prova n1 - parte 1\quadrado de um número\main.c
+	<stdio.h>
+	<stdlib.h>
+
