@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1603934768 source:c:\users\rapha\desktop\the shire\faculdade - cco uam\2º semestre\técnicas de programação\projetos\prova n1 - parte 2\ex2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcoes_ocorrencias.h"
+
+1603934835 source:c:\users\rapha\desktop\the shire\faculdade - cco uam\2º semestre\técnicas de programação\projetos\prova n1 - parte 2\ex2\funcoes_ocorrencias.c
+	"funcoes_ocorrencias.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1603930354 c:\users\rapha\desktop\the shire\faculdade - cco uam\2º semestre\técnicas de programação\projetos\prova n1 - parte 2\ex2\funcoes_ocorrencias.h
+

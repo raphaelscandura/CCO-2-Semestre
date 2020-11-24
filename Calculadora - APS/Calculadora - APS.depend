@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1603726144 source:c:\users\rapha\desktop\the shire\faculdade - cco uam\2º semestre\técnicas de programação\projetos\calculadora - aps\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"funcoes_operacoes.h"
+
+1603726144 c:\users\rapha\desktop\the shire\faculdade - cco uam\2º semestre\técnicas de programação\projetos\calculadora - aps\funcoes_operacoes.h
+
+1603726144 source:c:\users\rapha\desktop\the shire\faculdade - cco uam\2º semestre\técnicas de programação\projetos\calculadora - aps\funcoes_operacoes.c
+	"funcoes_operacoes.h"
+
